@@ -1,0 +1,47 @@
+*{
+    font-family: 'Recursive', sans-serif;
+}
+
+
+#sketch-pad{
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:  black solid;
+    cursor: crosshair;    
+}
+body{
+    background-color: whitesmoke;
+}
+
+.sketching {
+    background-color: red;
+}
+
+.add-border{
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    margin:20px;
+    height: 2em;
+    width: 100px;
+    border-radius: 1em;
+    cursor: pointer;
+    background-color: snow;
+}
+
